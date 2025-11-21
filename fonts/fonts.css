@@ -1,0 +1,67 @@
+/* Catamaran Font */
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Comfortaa Font */
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* FiraMono Font */
+@font-face {
+    font-family: 'FiraMono';
+    src: url('FiraMono-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FiraMono';
+    src: url('FiraMono-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FiraMono';
+    src: url('FiraMono-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* mariamx Font */
+@font-face {
+    font-family: 'mariamx';
+    src: url('mariamx.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

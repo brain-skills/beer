@@ -1,0 +1,219 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: no-repeat url("../images/bg.jpg");
+    background-size: cover;
+}
+.bg-white{
+    background: #fff;
+}
+.border-radius-10{
+    border-radius: 10px !important;
+}
+.container{
+    position: relative;
+}
+
+.dcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.costvalue{
+    position: relative;
+    width: 100%;
+    height: 69px;
+    top: -90px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    z-index: 1;
+}
+
+.typeicon{
+    z-index: 2;
+}
+
+body:not(.admin-panel) .card {
+    background: no-repeat url("../images/card-bg.jpg");
+    background-size: cover;
+    border-radius: 7%;
+}
+
+body:not(.admin-panel) .card-header,
+body:not(.admin-panel) .card-body,
+body:not(.admin-panel) .card-footer {
+    border: none;
+}
+
+body:not(.admin-panel) .card-body {
+    max-height: 270px;
+    min-height: 200px;
+}
+
+body:not(.admin-panel) .card-footer {
+    width: 100%;
+}
+
+.sale{
+    left: 80px;
+    height: 50px;
+    line-height: 40px;
+    min-width: 190px;
+    width: auto;
+    text-align: center;
+    top: -16px;
+    border: 2px solid rgb(255 255 255 / 30%);
+    background: rgb(0 0 0 / 90%);
+    color: #f4ba00;
+    font-size: 36px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+
+.bloodtest{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: rgb(255, 193, 7);
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.bloodtest img{
+    height: 36px;
+}
+
+.country img{
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+    height: 48px;
+}
+.filter img{
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+    height: 50px;
+}
+
+.typeicon {
+    width: 140px;
+    height: auto !important;
+    position: relative;
+    left: -50px;
+    top: -50px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.price{
+    border-bottom: 2px solid #fff;
+    font-size: 56px;
+    font-weight: 800;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.title-one{
+    position: absolute;
+    font-size: 36px;
+    font-family: Catamaran;
+    font-weight: 600;
+}
+
+.title-two{
+    font-family: Catamaran;
+    font-weight: 600;
+}
+
+.top-10{top: 10px;}
+.top-15{top: 10px;}
+.top-20{top: 20px;}
+.top-25{top: 25px;}
+.top-30{top: 30px;}
+.top-35{top: 35px;}
+.top-40{top: 40px;}
+.top-45{top: 45px;}
+.top-50{top: 50px;}
+.top-55{top: 55px;}
+.top-60{top: 60px;}
+.top-65{top: 65px;}
+.top-70{top: 70px;}
+.top-75{top: 75px;}
+.top-80{top: 80px;}
+.top-85{top: 85px;}
+.top-90{top: 90px;}
+.top-95{top: 95px;}
+.right-10{right: 10px;}
+.right-20{right: 20px;}
+.right-30{right: 30px;}
+
+.logo {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/* Для высоты экрана 1000 пикселей и ниже */
+@media (min-height: 900px) {
+    .logo {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+/* Для высоты экрана 1200 пикселей и ниже */
+@media (min-height: 1000px) {
+    .logo {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+/* Для высоты экрана 1400 пикселей и ниже */
+@media (min-height: 1100px) {
+    .logo {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container{
+        display: block;
+        position: relative;
+        width: 100%;
+        max-width: 95%;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#fullscreenBtn {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#fullscreenBtn:hover {
+    transform: rotate(180deg);
+}
+
+.pagination{
+    font-size: 22px;
+    font-weight: 600;
+    border: 2px solid #666;
+    color: #666;
+    text-decoration: none;
+    padding: 0px 10px;
+}

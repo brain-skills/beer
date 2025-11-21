@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css?v=0.0.0.5">
+    <link rel="stylesheet" href="fonts/fonts.css?v=0.0.0.5">
+    <link rel="icon" type="image/svg+xml" href="images/vite.svg">
+    <title>Page 1</title>
+</head>
+<body>
+    <div class="container">
+        <a class="float-start pagination" href="/index2.html">
+            2
+        </a>
+        <a class="float-end" id="fullscreenBtn">
+            <svg height="36" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="#666" d="M0 0v512h512V0H0zm477.867 477.867H34.133V34.133h443.733v443.734z"/>
+                <path fill="#666" d="M126.533 102.4h72.578V68.267H68.267v130.844H102.4v-72.573l96.022 96.02 24.134-24.135zM222.557 313.581l-24.135-24.136-96.022 96.022v-72.578H68.267v130.844h130.844V409.6h-72.573zM409.6 312.889v72.578l-96.022-96.023-24.134 24.134 96.018 96.022h-72.573v34.133h130.844V312.889zM312.889 68.267V102.4h72.578l-96.023 96.023 24.134 24.135 96.022-96.02v72.573h34.133V68.267z"/>
+            </svg>
+        </a>
+        <div class="logo dcenter">
+            <img class="logo" src="images/logo.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                <div class="card" id="card1">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card1_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card1_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-1" src="images/beerIcons/1.png" alt="">
+                        <div id="cardStartBody1" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card1_Title 1 -->ყაზბეგი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card1_Title 2 -->4444<!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card1_Alcohol -->4.5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card1_Price -->4.7<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody1">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                <div class="card" id="card2">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card2_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card2_Promotion -->4 + 1<!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-2" src="images/beerIcons/2.png" alt="">
+                        <div id="cardStartBody2" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card2_Title 1 -->კასრის<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card2_Title 2 --><!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card2_Alcohol -->4.5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card2_Price -->4.2<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody2">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                <div class="card" id="card3">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card3_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card3_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-3" src="images/beerIcons/3.png" alt="">
+                        <div id="cardStartBody3" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card3_Title 1 -->კრუშოვიცე<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card3_Title 2 -->Krusovice<!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card3_Alcohol -->5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card3_Price -->8.4<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody3">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-5">
+                <div class="card" id="card4">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card4_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card4_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-4" src="images/beerIcons/4.png" alt="">
+                        <div id="cardStartBody4" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card4_Title 1 -->სტაროპრამენი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card4_Title 2 -->Staropramen<!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card4_Alcohol -->5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card4_Price -->7<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody4">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card" id="card5">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card5_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card5_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-5" src="images/beerIcons/5.png" alt="">
+                        <div id="cardStartBody5" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card5_Title 1 -->შავი ლომი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card5_Title 2 -->IPA<!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card5_Alcohol -->5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card5_Price -->8.5<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody5">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card" id="card6">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card6_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card6_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-6" src="images/beerIcons/6.png" alt="">
+                        <div id="cardStartBody6" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card6_Title 1 -->შავი ლომი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card6_Title 2 -->HELLES<!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card6_Alcohol -->5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card6_Price -->6.5<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody6">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card" id="card7">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card7_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card7_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-7" src="images/beerIcons/7.png" alt="">
+                        <div id="cardStartBody7" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card7_Title 1 -->ტაატი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card7_Title 2 --><!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card7_Alcohol -->6<!-- END INPUT -->%</span>
+                                <span class="filter"><img src="images/nofilter.png" alt=""></span>
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card7_Price -->8.2<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody7">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="card" id="card8">
+                    <span class="position-absolute sale">
+                        <span class="blink">
+                            <b><!-- INPUT: Card8_Discount --><!-- END INPUT --></b>
+                            <!-- INPUT: Card8_Promotion --><!-- END INPUT -->
+                        </span>
+                    </span>
+                    <div class="card-body">
+                        <img class="typeicon card-image-8" src="images/beerIcons/8.png" alt="">
+                        <div id="cardStartBody8" class="visible">
+                            <h1 class="card-text float-end text-white title-one top-35 right-30"><!-- INPUT: Card8_Title 1 -->ცივ-ცივი<!-- END INPUT --></h1>
+                            <h1 class="card-text float-end text-white title-two position-absolute top-90 right-30"><!-- INPUT: Card8_Title 2 --><!-- END INPUT --></h1>
+                            <div class="footer">
+                                <span class="bloodtest"><img src="images/blood-test.png" alt=""> <!-- INPUT: Card8_Alcohol -->5<!-- END INPUT -->%</span>
+                                <!-- <span class="filter"><img src="images/nofilter.png" alt=""></span> -->
+                                <span class="country"><img src="images/flags/Geo.png" alt=""></span>
+                                <h1 class="card-text float-end text-warning price"><!-- INPUT: Card8_Price -->4.6<!-- END INPUT --> ₾</h1>
+                            </div>
+                        </div>
+                        <div class="costvalue dcenter hidden" id="cardEndBody8">მარაგი<br>ამოწურულია</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
