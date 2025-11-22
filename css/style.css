@@ -155,15 +155,15 @@ body:not(.admin-panel) .card-footer {
 .right-30{right: 30px;}
 
 .logo {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 /* Для высоты экрана 1000 пикселей и ниже */
 @media (min-height: 900px) {
     .logo {
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 }
 
