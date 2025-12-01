@@ -52,7 +52,7 @@ body:not(.admin-panel) .card-footer {
 
 body:not(.admin-panel) .card-body {
     max-height: 270px;
-    min-height: 200px;
+    min-height: 250px;
 }
 
 body:not(.admin-panel) .card-footer {
@@ -106,7 +106,7 @@ body:not(.admin-panel) .card-footer {
     width: 140px;
     height: auto !important;
     position: relative;
-    left: -50px;
+    left: -60px;
     top: -50px;
     height: 150px;
     border-radius: 50%;
@@ -125,7 +125,12 @@ body:not(.admin-panel) .card-footer {
     font-size: 36px;
     font-family: Catamaran;
     font-weight: 600;
+    margin-top: 10px;
 }
+
+.title-34{font-size: 34px;}
+.title-32{font-size: 32px;}
+.title-30{font-size: 30px;}
 
 .title-two{
     font-family: Catamaran;
