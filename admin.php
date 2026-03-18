@@ -139,7 +139,7 @@ foreach ($matches as $match) {
 
                 <!-- Карточки услуг -->
                 <?php foreach ($groupedFields as $group => $fields): ?>
-                    <div class="col-12 mb-4">
+                    <div class="col-3 mb-4">
                         <div class="card bg-white border-success border-radius-10">
                             <div class="card-header bg-white">
                                 <?php echo htmlspecialchars($group, ENT_QUOTES, 'UTF-8'); ?>
