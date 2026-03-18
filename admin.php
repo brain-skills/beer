@@ -77,9 +77,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Сохранение файла (или просто redirect, если были только картинки)
     if ($content !== $originalContent || $hasImageChanges) {
-        // Перезаписываем html (даже если не изменился — это не страшно)
-        file_put_contents($file, $content);
 
+        // Отладка для распознования ошибок
+        // var_dump($file);
+        // var_dump(is_writable($file));
+        // var_dump(is_writable(__DIR__));
+        // var_dump(is_writable(__DIR__ . '/images/beerIcons/'));
+        // exit;
+        // Отладка для распознования ошибок
+
+        // Перезаписываем html (даже если не изменился — это не страшно)
+        $result = file_put_contents($file, $content);
+        if ($result === false) {
+            die('Ошибка записи файла: ' . $file);
+        }
         header("Location: " . $_SERVER['REQUEST_URI']);
         exit();
     } else {
